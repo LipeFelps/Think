@@ -14,10 +14,18 @@ export class InicioComponent implements OnInit {
   ) { }
 
   ngOnInit(){
+    
 
     if(environment.token == ''){
       this.router.navigate(['/entrar'])
     }
+  }
+  findByIdUser(){
+    this.authService.getByIdUser(this.idUser).subscribe((resp: User) => {
+      this.user = resp
+    })
+
+
   }
 
 }
