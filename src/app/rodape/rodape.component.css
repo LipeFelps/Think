@@ -3,7 +3,7 @@ ul.social-network{
     padding: 0;
 }
 
-ul.social-network.li{
+ul.social-network li{
     display: inline;
     margin: 0;
     padding: 5px;
@@ -14,7 +14,7 @@ ul.social-network.li{
     color: white;
     padding: 10px;
 }
-.fa-instagram-square:hover{
+.fa-instagram:hover{
 color: #8a3ab9;
 
 
